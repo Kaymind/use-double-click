@@ -5,7 +5,6 @@ const useDoubleClick = ({
   onDoubleClick = () => {},
   latency = 200,
 }) => {
-  // const [clickCount, setClickCount] = useState(0)
   const ref = useRef();
 
   useEffect(() => {
